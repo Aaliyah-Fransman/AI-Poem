@@ -1,0 +1,106 @@
+header {
+  margin-bottom: 30px;
+}
+
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/172/248/original/lovely.jpg?1755202680");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 0;
+  color: white;
+  -webkit-text-stroke: 1px white;
+  text-shadow: 0 0 10px #c7a87e, 0 0 20px #d2b48c;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  height: 600px;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/172/248/original/lovely.jpg?1755202680");
+  border-radius: 10px;
+  border: #cccccc;
+}
+
+form {
+  padding: 30px;
+  background-color: transparent;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  margin-bottom: 30px;
+}
+
+.instructions {
+  padding: 16px;
+  width: 80%;
+  font-size: 18px;
+  border-radius: 50px;
+  line-height: 20px;
+  background: rgb(150, 51, 51);
+  color: #cccccc;
+  outline: none;
+  box-shadow: none;
+}
+::placeholder {
+  -webkit-text-stroke: 1px white;
+  text-shadow: 0 0 10px #c7a87e, 0 0 20px #d2b48c;
+  font-size: 15px;
+  border: rgb(150, 51, 51);
+  outline: rgb(150, 51, 51);
+  color: white;
+  background: 0 0 10px #c7a87e, 0 0 20px #d2b48c;
+  border-radius: 10px;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background: rgb(150, 51, 51);
+  color: #cccccc;
+  border: none;
+  border-radius: 50px;
+  padding: 14px 24px;
+  width: 150px;
+  font-size: 23px;
+  cursor: pointer;
+  -webkit-text-stroke: 1px white;
+  text-shadow: 0 0 10px #c7a87e, 0 0 20px #d2b48c;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.poem {
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid white;
+  box-shadow: #cccccc solid;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 150px;
+  color: white;
+}
+a {
+  color: #c7a87e;
+}
