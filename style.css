@@ -21,7 +21,7 @@ h1 {
   padding: 20px;
   color: white;
   -webkit-text-stroke: 1px white;
-  text-shadow: 0 0 10px #906222, 0 0 20px #906222;
+  text-shadow: 0 0 10px rgb(86, 86, 222), 0 0 20px rgb(86, 86, 222);
 
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
@@ -52,7 +52,7 @@ form {
   font-size: 18px;
   border: none;
   border-radius: 50px;
-  background: #a2712b;
+  background: rgb(86, 86, 222);
   outline: 2px white solid;
   outline-offset: 1px;
   color: white;
@@ -69,7 +69,7 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background: #a2712b;
+  background: rgb(86, 86, 222);
   color: white;
   outline: 2px white solid;
   outline-offset: 1px;
@@ -86,13 +86,13 @@ form {
 }
 .poem {
   font-size: 20px;
-  color: #906222;
+  color: rgb(124, 124, 244);
   background: transparent;
 
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #a2712b;
-  border-right: 3px solid #a2712b;
+  border-left: 3px solid rgb(86, 86, 222);
+  border-right: 3px solid rgb(86, 86, 222);
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 0 10px white, 0 0 20px white;
@@ -104,7 +104,7 @@ footer {
   color: white;
 }
 a {
-  color: #a2712b;
+  color: rgb(86, 86, 222);
 }
 .poem strong {
   color: white;
