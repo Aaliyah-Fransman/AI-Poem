@@ -20,19 +20,22 @@
         <h1>Sonnet Stream</h1>
       </header>
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Craft Your Verse"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Craft Your Verse"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e:Flower, Love</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         This AI project was coded by
